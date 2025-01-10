@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Sign Up Form</title>
+
+  <link rel="stylesheet" href="signup.css">
+  
+</head>
+<body>
+      <div class="outer">
+        <div class="inner">
+            <form action="" method="get" >
+              <caption> <h2> Sign Up</h2></caption><br>
+              <div class="input">
+                <div class="first-name">
+                  <label for="fname">First Name<sup>*</sup></label><br>
+                  <input type="text" name="fname" id="fname" required>
+                </div>
+                <div class="last-name">
+                  <label for="lname">Last Name<sup>*</sup></label><br>
+                  <input type="text" name="lname" id="lname" required><br>
+                </div>
+              </div>
+
+              <div class="email">
+                <label for="email">Email<sup>*</sup></label><br>
+                <input type="email" name="email" id="email" required><br>
+              </div>
+             
+                 
+              <label for="query">Gender<sup>*</sup></label>
+              <div class="query">
+                  <div class="radio1" >
+                      <input type="radio" name="query" id="query1" required>
+                      <label for="query"> Male</label>
+                  </div>
+                  <div class="radio2" >
+                      <input type="radio" name="query" id="query2" required>
+                      <label for="query"> Female </label>
+                  </div>
+              </div>
+              
+              <div class="text-area">
+                <label for="message">Hobbies<sup>*</sup></label><br>
+                <textarea name="message" id="message" rows="7" cols="15" placeholder="" ></textarea><br>
+              </div>
+              
+              <div class="consent">
+                <input type="checkbox" name="consent" id="consent" required>
+                <label for="consent"> I consent to Being Contacted by Team</label><br>
+              </div>
+
+              <input class="button"  type="submit" value="submit" >
+
+            </form>
+        </div>
+      </div>
+ 
+</body>
+</html>
